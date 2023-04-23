@@ -47,8 +47,8 @@ def objects():
                 "USE_WALG_RESTORE": "true",
                 'BACKUP_SCHEDULE': '00 10 * * *',
                 "AWS_S3_FORCE_PATH_STYLE": "true",
-                "AWS_ENDPOINT": "https://o3.ocf.berkeley.edu",
-                "AWS_REGION": "us-east-1",
+                "AWS_ENDPOINT": "https://o3.ocf.io",
+                "AWS_REGION": "rgw-hdd",
                 "WALG_DISABLE_S3_SSE": "false",
                 "BACKUP_NUM_TO_RETAIN": "5",
                 "CLONE_USE_WALG_RESTORE": "true"
